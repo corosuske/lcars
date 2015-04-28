@@ -3,16 +3,16 @@
 #controll led nr1 
 if ($_GET['led_on']) {
   # This code will run if ?run=true is set.
-  exec("sudo python /home/pi/ledon.py");
+  exec("sudo python /home/pi/lcars/ledon.py");
   }
 elseif ($_GET['led_off']) {
-  exec("sudo python /home/pi/ledoff.py");
+  exec("sudo python /home/pi/lcars/ledoff.py");
   }
 
 #controll led2
 elseif ($_GET['led_on2']) {
   # This code will run if ?run=true is set.
-  exec("sudo python /home/pi/ledon2.py");
+  exec("sudo python /home/pi/lcars/ledon2.py");
   }
 elseif ($_GET['led_off2']) {
   exec("sudo python /home/pi/ledoff2.py");
