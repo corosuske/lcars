@@ -1,0 +1,15 @@
+<body bgcolor="#000000">
+
+<p>
+<iframe src="top.php"  width="2000" height="60" frameBorder="1">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+</p>
+<p>
+<iframe src="side.php"  width="200" height="2000" frameBorder="1">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+<body bgcolor="#000000">
+
+
+</p>
